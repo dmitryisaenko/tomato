@@ -12,7 +12,6 @@
 }
 html {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
 }
 .body_wrap {
   height: 100%;
@@ -33,6 +32,7 @@ header.main {
   position: absolute;
   top: 0px;
   width: 100%;
+  z-index: 100;
 }
 .logo_mini {
   margin-left: 91px;
@@ -85,5 +85,87 @@ input[type='text'] {
   margin-top: 20px;
 }
 main {
-  height: 400px;
+  height: 100%;
+}
+.slider_item {
+  position: relative;
+}
+.slider_img {
+  position: absolute;
+  top: 83px;
+  left: 72px;
+  z-index: 0;
+}
+.right_block_slider_item {
+  position: absolute;
+  top: 108px;
+  right: 92px;
+}
+.socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.socials li {
+  padding: 0;
+  margin: 0;
+}
+.text_right_block_slider_item {
+  font-weight: 100;
+  width: 184px;
+  margin-top: 24px;
+  font-size: 24px;
+  font-variant: small-caps;
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+.content_slider_item {
+  position: absolute;
+  bottom: 48px;
+  width: 100%;
+}
+.content_slider_item h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+  color: #ffffff;
+  font-size: 39px;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  text-align: center;
+}
+.content_slider_item h2 {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  font-variant: small-caps;
+  /* Text style for "Seit 2019" */
+  letter-spacing: 4.36px;
+  text-align: center;
+}
+header.slider_second {
+  height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/db_line.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.8);
+  left: 0;
+  top: 300px;
+  width: 100%;
+  z-index: 100;
 }
