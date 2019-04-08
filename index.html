@@ -16,37 +16,59 @@
 </head>
 <body>
     
-    <!-- Header страницы -->
-    <header>
-        <h1>Site title</h1>
-        <p>site slogan</p>
-    </header>
-
-    <!-- Главная Навигация по сайту -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contacts</a></li>
-        </ul>
-    </nav>
-
-    <!-- Основное содержимое страниц -->
-    <main>
-            
-        <section>
-            <header>
-                <h3>Seattle</h3>
-            </header>
-            <p>Follow the yellow brick road.</p>
-        </section>
+    <div class="body_wrap">
         
-    </main>
+        <!-- Header страницы -->
+        <header class="main">
+            <div class="logo_mini">
+                <a href="#">
+                    <img src="img/logo_mini.png" alt="Mini logo">
+                </a>
+            </div>
+        
+            <!-- Главная Навигация по сайту -->
+            <nav>
+                <ul>
+                    <li><a href="#">ÜBER UNS</a></li>
+                    <li><a href="#">GALERIE</a></li>
+                    <li><a href="#">BESTELLEN</a></li>
+                    <li><a href="#">KONTAKTE</a></li>
+                </ul>
+            </nav>  
 
-    <!-- Подвал сайта -->
-    <footer>
-        <p class="copyright">© 2015 Rightblog.ru Copyright</p>
-    </footer>
+            <form action="">
+                <input type="text" class="search">
+            </form>
+            <div class="loupe"></div>
+
+            <div class="lang">
+                <a href="">
+                    <img src="img/german_flag.png" alt="German language">
+                </a>
+            </div>
+            
+        </header>
+
+       
+
+        <!-- Основное содержимое страниц -->
+        <main>
+                
+            <div class="slider">
+                <div class="slider_item">
+                    <div class="slider_img">
+                        <img src="img/bg_first.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <!-- Подвал сайта -->
+        <footer>
+            <p class="copyright">© 2015 Rightblog.ru Copyright</p>
+        </footer>
+    </div>
+    
 </body>
 </html>
