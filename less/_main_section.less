@@ -78,20 +78,219 @@ main{
     text-align: center;
 }
 
-header.slider_second{
-    height: 73px;
-    display: flex;
-    background-image: url(../img/db_line.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.8);
-    left: 0;
-    // position: absolute;
-    top: 300px;
-    width: 100%;
-    z-index: 100;
+section.slider_second, section.slider_third{
+    position: relative;
 }
 
-header.slider_second h2{
+header.slider_second, header.gallery_header{
+    .header_with_opacity;    
+}
+
+header.product_header, header.contacts_header{
+    .header_without_opacity; 
+}
+
+header.slider_second h2, .gallery_header h2, .product_header h2, .contacts_header h2{
+    .header_h2;
+}
+
+.content_slider_second{
+    position: absolute;
+    top:96px;
+    right: 96px;
+}
+
+.content_slider_second p{
+    .roboto-regular;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 26.12px;
+    font-variant: small-caps;
+    margin-left: 25px;
+
+    // letter-spacing: -1.5px;
+}
+
+.content_slider_second li{
+    .roboto-light;
+    color: #ffffff;
+    font-size: 20px;
+    // letter-spacing: -3px;
+}
+
+.slider_third{
+margin-top: -5px;
+}
+
+.gallery{
+    width: 100%;
+    height: 278px;
+    // background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.controls_white{
+    position: absolute;
+    top: 142px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls_left{
+    // position: absolute;
+    // left: 31px;
+    margin-left: 31px;
+}
+
+.controls_right{
+    // position: absolute;
+    // right: 111px;
+    margin-right: 31px;
+}
+
+.products{
+    width: 100%;
+    height: 246px;
+    position: relative;
+    // background-color: #ccc;
+}
+
+.controls_red{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_items{
+    margin-left: 79px;
+    margin-right: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_content{
+    margin-top: 24px;
+    font-variant: small-caps;
+    color: @light-red;
+}
+
+.product_content h3{
+    .roboto-regular;
+    font-size: 20px;
+}
+
+.product_content h4{
+    .roboto-medium;
+    font-size: 20px;
+    letter-spacing: 1.7px;
+}
+
+.product_button{
+    background-image: url("../img/buy_button.png");
+    background-position: 165px 5px;
+    background-repeat: no-repeat;
+    background-color: @light-red;
+    width: 195px;
+    height: 42px;
+    margin:  auto;
+    cursor: pointer;
+}
+
+.button_title{
+    .roboto-light;
+    color: #ffffff;
+    font-size: 27px;
+    // line-height: 17.63px;
+    font-variant: small-caps;
+    padding-top: 6px;
+    padding-left: 8px;
     
+}
+
+.product_title{
+    .roboto-regular;
+    color: #000000;
+    font-size: 31px;
+    font-variant: small-caps;
+    // letter-spacing: -0.94px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+section.fourth{
+
+}
+
+.contacts_detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 91px;
+}
+
+.contacts_detail h3{
+    .roboto-regular;
+    color: @light-red;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.contacts_detail h4{
+    .roboto-regular;
+    margin-top: 5px;
+    color: @light-red;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.contacts_detail .contacts_content{
+    .roboto-regular;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 22px;
+    font-variant: small-caps;
+}
+
+footer{
+    // border: 1px solid red;
+    height: 93px;
+    
+    background-image: url(../img/db_line.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+}
+
+.footer_content{
+    padding: 29px 91px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer_logo{
+    
+}
+
+.footer_copyright{
+    .roboto-medium;
+    color: #000000;
+    font-size: 12px;
+    font-variant: small-caps;
+    margin-left: 120px;
+    letter-spacing: 0.4px;
+}
+
+.footer_pay_cards{
+    margin-left: 22px;
 }

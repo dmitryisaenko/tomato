@@ -14,91 +14,230 @@
     <link rel="stylesheet" href="css/media.css" type="text/css" />
 </head>
 </head>
-<body>
+<body>    
+        
+    <!-- Header страницы -->
+    <header class="main">
+        <div class="logo_mini">
+            <a href="#">
+                <img src="img/logo_mini.png" alt="Mini logo">
+            </a>
+        </div>
     
-    <div class="body_wrap">
+        <!-- Главная Навигация по сайту -->
+        <nav>
+            <ul>
+                <li><a href="#">ÜBER UNS</a></li>
+                <li><a href="#">GALERIE</a></li>
+                <li><a href="#">BESTELLEN</a></li>
+                <li><a href="#">KONTAKTE</a></li>
+            </ul>
+        </nav>  
+
+        <form action="">
+            <input type="text" class="search">
+        </form>
+
+        <div class="lang">
+            <a href="">
+                <img src="img/german_flag.png" alt="German language">
+            </a>
+        </div>
         
-        <!-- Header страницы -->
-        <header class="main">
-            <div class="logo_mini">
-                <a href="#">
-                    <img src="img/logo_mini.png" alt="Mini logo">
-                </a>
+    </header>
+
+    
+
+    <!-- Основное содержимое страниц -->
+    <main>            
+        <section class="slider_first">
+            <div class="slider_item">
+                <div class="slider_img_bg">
+                    <img src="img/img_slider_01_01.jpg" alt="Background image of slider item">
+                </div>
+                <div class="slider_img">
+                    <img src="img/logo_main.png" alt="Main image of slider item">
+                </div>
+                <div class="right_block_slider_item">
+                    <div class="socials">
+                        <ul>
+                            <li><a href="#"><img src="img/si_instagram.png" alt="Social icons - Instagram"></a></li>
+                            <li><a href="#"><img src="img/si_fb.png" alt="Social icons - Facebook"></a></li>
+                            <li><a href="#"><img src="img/si_youtube.png" alt="Social icons - Youtube"></a></li>
+                            <li><a href="#"><img src="img/si_twitter.png" alt="Social icons - Twitter"></a></li>
+                            <li><a href="#"><img src="img/si_whatsapp.png" alt="Social icons - Whatsapp"></a></li>
+                        </ul>
+                    </div>
+                    <div class="text_right_block_slider_item">Wir bauen die besten österreichischen
+                        </br>Tomaten
+                        </br>mit den neuesten
+                        </br>umweltfreundlichen Technologien an.</div>
+                </div>
+                <div class="content_slider_item">
+                    <h1>SEHR GUT TOMATEN</h1>
+                    <h2>Seit 2019</h2>
+                </div>
             </div>
-        
-            <!-- Главная Навигация по сайту -->
-            <nav>
+        </section>
+        <section class="slider_second">
+            <header class="slider_second">
+                <h2>ÜBER UNS</h2>
+            </header>
+            <div class="slider_img_bg">
+                <img src="img/img_slider_02_01.jpg" alt="Background image of slider item">
+            </div>
+            <div class="content_slider_second">
+                <p>UNSERE WOHNHÄUSER</p>
+                <p>Parameter unserer Gewächshäuser</p> 
                 <ul>
-                    <li><a href="#">ÜBER UNS</a></li>
-                    <li><a href="#">GALERIE</a></li>
-                    <li><a href="#">BESTELLEN</a></li>
-                    <li><a href="#">KONTAKTE</a></li>
+                    <li>13.700 m2 Glaskonstruktionen, </br>in 4. gleichberechtigte Zonen aufgeteilt</li>
+                    <li>5.500 m2 Industriefilme für Gewächshäuse</li>
+                    <li>5.000 m2 Außenfläche. Heizung - </br>automatische Klimaanlage</br>(Heizen mit Thermalwasser)</li>
+                    <li>Bewässerung - automatisches System</br>Bewässerung, Tränken und Abtropfen</br>Bewässerungssystem</li>
+                    <li>CO2-Vorrat für das CO2-Anreicherungssystem</li>
                 </ul>
-            </nav>  
-
-            <form action="">
-                <input type="text" class="search">
-            </form>
-            <div class="loupe"></div>
-
-            <div class="lang">
-                <a href="">
-                    <img src="img/german_flag.png" alt="German language">
-                </a>
             </div>
-            
-        </header>
-
-       
-
-        <!-- Основное содержимое страниц -->
-        <main>
+        </section>
+        <section class="slider_third">
+            <header class="gallery_header">
+                <h2>GALERIE</h2>
+            </header>
+            <div class="gallery">
+                <div class="controls_white">
+                    <a href="#"><img class="controls_left" src="img/controls_white_left.png" alt="Left control"></a>
+                    <a href="#"><img class="controls_right" src="img/controls_white_right.png" alt="Right control"></a>
+                </div>
+                <div class="gallery_item">
+                    <img src="img/img_slider_03_first.jpg" alt="Gallery item">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/img_slider_03_01.jpg" alt="Gallery item">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/img_slider_03_02.jpg" alt="Gallery item">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/img_slider_03_03.jpg" alt="Gallery item">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/img_slider_03_04.jpg" alt="Gallery item">
+                </div>
+                <div class="gallery_item">
+                    <img src="img/img_slider_03_last.jpg" alt="Gallery item">
+                </div>
                 
-            <section class="slider_first">
-                <div class="slider_item">
-                    <div class="slider_img_bg">
-                        <img src="img/bg_first.jpg" alt="Background image of slider item">
+            </div>
+        </section>
+        <section class="slider_fourth">
+            <header class="product_header">
+                <h2>BESTELLEN</h2>
+            </header>
+            <div class="products">
+                <div class="product_title">
+                    Unserer Produkte, die zu einem für Sie günstigen  Zeitpunkt geliefert werden und Ort.
+                </div>
+                <div class="product_gallery">
+                    <div class="controls_red">
+                        <a href="#"><img class="controls_left" src="img/controls_red_left.png" alt="Left control"></a>
+                        <a href="#"></a><img class="controls_right" src="img/controls_red_right.png" alt="Right control"></a>
                     </div>
-                    <div class="slider_img">
-                        <img src="img/logo_main.png" alt="Main image of slider item">
-                    </div>
-                    <div class="right_block_slider_item">
-                        <div class="socials">
-                            <ul>
-                                <li><a href="#"><img src="img/si_instagram.png" alt="Social icons - Instagram"></a></li>
-                                <li><a href="#"><img src="img/si_fb.png" alt="Social icons - Facebook"></a></li>
-                                <li><a href="#"><img src="img/si_youtube.png" alt="Social icons - Youtube"></a></li>
-                                <li><a href="#"><img src="img/si_twitter.png" alt="Social icons - Twitter"></a></li>
-                                <li><a href="#"><img src="img/si_whatsapp.png" alt="Social icons - Whatsapp"></a></li>
-                            </ul>
+                    <div class="product_items">
+                        <div class="product_item">
+                            <div class="product_img">
+                                <img src="img/img_slider_04_01.jpg" alt="Product item">
+                            </div>
+                            <div class="product_content">
+                                <h3>HERR TOMADOR™</h3>
+                                <h4>Cherry Tomaten</br>PORPORA F1</h4>
+                            </div>
                         </div>
-                        <div class="text_right_block_slider_item">Wir bauen die besten österreichischen
-                            </br>Tomaten
-                            </br>mit den neuesten
-                            </br>umweltfreundlichen Technologien an.</div>
-                    </div>
-                    <div class="content_slider_item">
-                        <h1>SEHR GUT TOMATEN</h1>
-                        <h2>Seit 2019</h2>
+                        <div class="product_item">
+                            <div class="product_img">
+                                <img src="img/img_slider_04_02.jpg" alt="Product item">
+                            </div>
+                            <div class="product_content">
+                                <h3>HERR TOMADOR™</h3>
+                                <h4>Coctail Tomaten</br>CLOTO F1</h4>
+                            </div>
+                        </div>
+                        <div class="product_item">
+                            <div class="product_img">
+                                <img src="img/img_slider_04_03.jpg" alt="Product item">
+                            </div>
+                            <div class="product_content">
+                                <h3>HERR TOMADOR™</h3>
+                                <h4>Pflaume Tomaten</br>CRISPINA PLUM</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <section class="slider_second">
-                <header class="slider_second">
-                    <h2>ÜBER UNS</h2>
-                </header>
-                <div class="content_slider_second">
-                    
+                <div class="product_button">
+                    <div class="button_title">BESTECHEN</div>
                 </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <header class="contacts_header">
+                <h2>KONTAKTE</h2>
+            </header>
+            <div class="contacts_detail">
+                <div class="col_1">
+                    <h3>
+                        AGROPONIKA GmbH
+                    </h3>
+                    <h4>
+                        büro
+                    </h4>
+                    <div class="contacts_content">
+                        Stefan Fechter Weg 8</br>
+                        4020 Linz</br>
+                        Österreich
+                    </div>
+                </div>
+                <div class="col_2">
+                    <img src="img/map.jpg" alt="We are on the map">
+                </div>
+                <div class="col_3">
+                    <h3>
+                        HERR TOMADOR™
+                    </h3>
+                    <h4>
+                        gewächshäuser
+                    </h4>
+                    <div class="contacts_content">
+                        Bahnstraße 18</br>
+                        4943 Geinberg</br>
+                        Österreich
+                    </div>
+                </div>
+                <div class="col_4 add_margin_26">
+                    <h4>
+                        telefone
+                    </h4>
+                    <div class="contacts_content">
+                        +43 664  615 63 08</br>
+                        +43 664  481 99 33
+                    </div>
+                </div>
+                
+            </div>
             </section>
-            
-        </main>
+    </main>
 
-        <!-- Подвал сайта -->
-        <footer>
-            <p class="copyright">© 2015 Rightblog.ru Copyright</p>
-        </footer>
-    </div>
-    
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="footer_content">
+            <div class="footer_logo">
+                <img src="img/logo_mini.png" alt="Mini logo">
+            </div>
+            <div class="footer_copyright">
+                © 2019 AGROPONIKA GmbH. HERR TOMADOR™ ist eine eingetragene marke der firma AGROPONIKA GmbH.
+            </div>
+            <div class="footer_pay_cards">
+                <img src="img/pay_cards.png" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
